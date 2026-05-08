@@ -1,0 +1,365 @@
+[
+    {
+        "id": "_meta",
+        "author": "UoS GameSoc",
+        "name": "GameSoc Gambit '26",
+        "firstNight": [
+            "dusk",
+            "rook_gamesoc",
+            "minioninfo",
+            "belphegor_gamesoc",
+            "matchmaker_gamesoc",
+            "ghoul_gamesoc",
+            "machiavellian_gamesoc",
+            "demoninfo",
+            "conductor_gamesoc",
+            "yapper_gamesoc",
+            "plumber_gamesoc",
+            "snowman_gamesoc",
+            "dawn"
+        ],
+        "otherNight": [
+            "dusk",
+            "salesman_gamesoc",
+            "matchmaker_gamesoc",
+            "ghoul_gamesoc",
+            "machiavellian_gamesoc",
+            "angelstrumpet_gamesoc",
+            "fürst_gamesoc",
+            "belphegor_gamesoc",
+            "endling_gamesoc",
+            "maw_gamesoc",
+            "trials_gamesoc",
+            "revenant_gamesoc",
+            "re-animator_gamesoc",
+            "conductor_gamesoc",
+            "yapper_gamesoc",
+            "snowman_gamesoc",
+            "dawn"
+        ]
+    },
+    {
+        "id": "plumber_gamesoc",
+        "name": "Plumber ☕️",
+        "image": "https://raw.githubusercontent.com/notNothingMuch/GSG/refs/heads/main/Plumber_good.png",
+        "team": "townsfolk",
+        "ability": "You start knowing the highest number of evil players that any good player neighbours.",
+        "firstNight": 26,
+        "otherNight": 0,
+        "firstNightReminder": "Give a finger signal.",
+        "reminders": []
+    },
+    {
+        "id": "yapper_gamesoc",
+        "name": "Yapper ∃",
+        "image": "Microphone",
+        "team": "townsfolk",
+        "ability": "You start knowing a secret phrase. If you said it publicly today, learn an in-play character tonight. The Demon knows the Yapper is in play.",
+        "firstNight": 25,
+        "otherNight": 15,
+        "firstNightReminder": "Choose a secret phrase. Wake the Yapper and let them know their secret phrase. Put them to sleep. Wake the Demon &amp; show the Yapper token.",
+        "otherNightReminder": "If the Yapper said their phrase, show them an in-play character token. :reminder:",
+        "reminders": [
+            "Said Phrase"
+        ]
+    },
+    {
+        "id": "snowman_gamesoc",
+        "name": "Snowman ™",
+        "image": "Snowman",
+        "team": "townsfolk",
+        "ability": "Each night, choose a player & guess their character type: if you guess wrong, you learn this tonight or up to 2 nights later.",
+        "firstNight": 27,
+        "otherNight": 16,
+        "firstNightReminder": "The Snowman chooses a player &amp; character type. :reminder: If they are wrong or marked *1 NIGHT AGO*, you may shake your head no. If marked *2 NIGHTS AGO*, you must shake your head no. :reminder:",
+        "otherNightReminder": "The Snowman chooses a player &amp; character type. :reminder: If they are wrong or marked *1 NIGHT AGO*, you may shake your head no. If marked *2 NIGHTS AGO*, you must shake your head no. :reminder:",
+        "reminders": [
+            "1 Night Ago",
+            "2 Nights Ago"
+        ]
+    },
+    {
+        "id": "trials_gamesoc",
+        "name": "Trials ߷",
+        "image": "Gauntlet",
+        "team": "townsfolk",
+        "ability": "Each night*, the player who suffered the most today might have something good happen to them.",
+        "firstNight": 0,
+        "otherNight": 11,
+        "otherNightReminder": "A player might have something good happen to them. :reminder:",
+        "reminders": [
+            "Something Good",
+            "?",
+            "?"
+        ]
+    },
+    {
+        "id": "re-animator_gamesoc",
+        "name": "Re-Animator ▫",
+        "image": "https://raw.githubusercontent.com/notNothingMuch/GSG/refs/heads/main/ReAnimator_good.png",
+        "team": "townsfolk",
+        "ability": "Each night*, if there are 5 or more players alive, you may choose a player: they are resurrected & drunk, but another player dies.",
+        "firstNight": 0,
+        "otherNight": 13,
+        "otherNightReminder": "The Re-Animator might choose a player. :reminder: :reminder: :reminder:",
+        "reminders": [
+            "Alive",
+            "Dead",
+            "Drunk",
+            "Drunk",
+            "Drunk"
+        ]
+    },
+    {
+        "id": "attorney_gamesoc",
+        "name": "Attorney ‡",
+        "image": "https://raw.githubusercontent.com/notNothingMuch/GSG/refs/heads/main/Attorney_good.png",
+        "team": "townsfolk",
+        "ability": "Each day, if you publicly guess the Demon & their character, good wins.",
+        "firstNight": 0,
+        "otherNight": 0,
+        "reminders": []
+    },
+    {
+        "id": "salesman_gamesoc",
+        "name": "Salesman »",
+        "image": "https://raw.githubusercontent.com/notNothingMuch/GSG/refs/heads/main/Salesman_good.png",
+        "team": "townsfolk",
+        "ability": "Each day, you may visit the Storyteller to propose a deal. Tonight, if the Demon accepts it, you lose this ability.",
+        "firstNight": 0,
+        "otherNight": 2,
+        "otherNightReminder": "Show the Demon the deal. If they accept, act it out accordingly. :reminder:",
+        "reminders": [
+            "?",
+            "?"
+        ]
+    },
+    {
+        "id": "conductor_gamesoc",
+        "name": "Conductor ‽",
+        "team": "townsfolk",
+        "ability": "Once per game, at night, choose a neighbour: a Townsfolk, if chosen, becomes a Conductor.",
+        "firstNight": 24,
+        "otherNight": 14,
+        "firstNightReminder": "The Conductor might choose a player. :reminder:",
+        "otherNightReminder": "The Conductor might choose a player. :reminder:",
+        "reminders": [
+            "No Ability",
+            "No Ability",
+            "No Ability"
+        ]
+    },
+    {
+        "id": "pilot_gamesoc",
+        "name": "Pilot 𓅪",
+        "image": "https://raw.githubusercontent.com/notNothingMuch/GSG/refs/heads/main/Pilot_good.png",
+        "team": "townsfolk",
+        "ability": "Once per game, during the day, visit the Storyteller with other players: good visitors all die if an evil player visited too.",
+        "firstNight": 0,
+        "otherNight": 0,
+        "reminders": [
+            "No Ability"
+        ]
+    },
+    {
+        "id": "sandwichfilling_gamesoc",
+        "name": "Sandwich Filling ♙",
+        "image": "sandwich",
+        "team": "townsfolk",
+        "ability": "On your 1st day, or if an alive neighbour died since last dawn, you may privately learn something your new alive neighbours have in common.",
+        "firstNight": 0,
+        "otherNight": 0,
+        "reminders": []
+    },
+    {
+        "id": "warrior_gamesoc",
+        "name": "Warrior ∴",
+        "team": "townsfolk",
+        "ability": "You cannot die. If an evil player dies, lose this ability.",
+        "firstNight": 0,
+        "otherNight": 0,
+        "reminders": [
+            "No Ability"
+        ]
+    },
+    {
+        "id": "revenant_gamesoc",
+        "name": "Revenant ඞ",
+        "team": "townsfolk",
+        "ability": "If you die at night, wake to learn the player most responsible for the current game state.",
+        "firstNight": 0,
+        "otherNight": 12,
+        "otherNightReminder": "If the Revanant died tonight, wake them &amp; point to the player most responsible for the current game state",
+        "reminders": []
+    },
+    {
+        "id": "shepherd_gamesoc",
+        "name": "Shepherd 𝔍",
+        "image": "Sheep",
+        "team": "townsfolk",
+        "ability": "Non-Demons who choose you with their abilities might lose them until you die & learn this.",
+        "firstNight": 0,
+        "otherNight": 0,
+        "reminders": [
+            "Sheep",
+            "Sheep",
+            "Sheep"
+        ]
+    },
+    {
+        "id": "firebrand_gamesoc",
+        "name": "Firebrand ✞",
+        "team": "outsider",
+        "ability": "Each day, if you vote, an evil player might act twice tonight.",
+        "firstNight": 0,
+        "otherNight": 0,
+        "reminders": [
+            "Acts Twice"
+        ]
+    },
+    {
+        "id": "disguiser_gamesoc",
+        "name": "Disguiser ✨",
+        "team": "outsider",
+        "ability": "Once per game, a player might register falsely.",
+        "firstNight": 0,
+        "otherNight": 0,
+        "reminders": [
+            "No Ability"
+        ]
+    },
+    {
+        "id": "posterchild_gamesoc",
+        "name": "Poster Child ✦",
+        "image": "https://sotonac-my.sharepoint.com/personal/cc7g23_soton_ac_uk/Documents/Apps/Microsoft%20Forms/GameSoc%20Gambit%202026/Upload%20your%20token%20art/Icon_PosterChild_good_anonymous.png",
+        "team": "outsider",
+        "ability": "If you nominate a player, you may not nominate a different player until they die. You may not vote until you nominate.",
+        "firstNight": 0,
+        "otherNight": 0,
+        "reminders": [
+            "Target"
+        ]
+    },
+    {
+        "id": "rook_gamesoc",
+        "name": "Rook ♤",
+        "image": "chess piece rook",
+        "team": "outsider",
+        "ability": "All Minions know a Rook is in play. If a player publicly guesses you after a vote is tallied, the votes for the nominee count for you instead.",
+        "firstNight": 16,
+        "otherNight": 0,
+        "firstNightReminder": "Wake the Minions &amp; show the Rook token.",
+        "reminders": []
+    },
+    {
+        "id": "matchmaker_gamesoc",
+        "name": "Matchmaker ;",
+        "image": "heart locket?",
+        "team": "minion",
+        "ability": "Each night, choose a player: they are mad their neighbours are good tomorrow, or might be executed.",
+        "firstNight": 21,
+        "otherNight": 3,
+        "firstNightReminder": "The Matchmaker chooses a player. :reminder: Put the Matchmaker to sleep. Wake the target. Show the *THIS CHARACTER SELECTED YOU* token, the Matchmaker token.",
+        "otherNightReminder": "The Matchmaker chooses a player. :reminder: Put the Matchmaker to sleep. Wake the target. Show the *THIS CHARACTER SELECTED YOU* token, the Matchmaker token.",
+        "reminders": [
+            "Mad"
+        ]
+    },
+    {
+        "id": "ghoul_gamesoc",
+        "name": "Ghoul 𝒞",
+        "team": "minion",
+        "ability": "Each night, you may choose to swap characters with the Demon: if you do, the Demon doesn't kill tonight.",
+        "firstNight": 22,
+        "otherNight": 4,
+        "firstNightReminder": "The Ghoul nods or shakes their head. If they nod: Show the *YOU ARE* &amp; Demon tokens. Swap the Ghoul &amp; Demon tokens. Put the old Ghoul to sleep. Wake the old Demon. Show the *YOU ARE* &amp; Ghoul tokens. :reminder:",
+        "otherNightReminder": "The Ghoul nods or shakes their head. If they nod: Show the *YOU ARE* &amp; Demon tokens. Swap the Ghoul &amp; Demon tokens. Put the old Ghoul to sleep. Wake the old Demon. Show the *YOU ARE* &amp; Ghoul tokens. :reminder:",
+        "reminders": [
+            "Doesn't Kill"
+        ]
+    },
+    {
+        "id": "machiavellian_gamesoc",
+        "name": "Machiavellia ∮",
+        "team": "minion",
+        "ability": "Each night, choose 2 players (they learn this): if both are good & one executes the other, your team wins.",
+        "firstNight": 23,
+        "otherNight": 5,
+        "firstNightReminder": "The Machiavellian chooses 2 players. Put them to sleep. :reminder: :reminder: Wake the targets one at a time. Show the *THIS CHARACTER SELECTED YOU* token, the Machiavellian token.",
+        "otherNightReminder": "The Machiavellian chooses 2 players. Put them to sleep. :reminder: :reminder: Wake the targets one at a time. Show the *THIS CHARACTER SELECTED YOU* token, the Machiavellian token.",
+        "reminders": [
+            "Chosen",
+            "Chosen"
+        ]
+    },
+    {
+        "id": "angelstrumpet_gamesoc",
+        "name": "Angel’s Trumpet ⚘",
+        "team": "minion",
+        "ability": "Each night*, choose a player: if they won't wake tonight due to their ability, they die & raise a dead player (once).",
+        "firstNight": 0,
+        "otherNight": 6,
+        "otherNightReminder": "The Angel's Trumpet chooses a player. Put them to sleep. :reminder: :reminder: :reminder:",
+        "reminders": [
+            "Once",
+            "Dead",
+            "Alive"
+        ]
+    },
+    {
+        "id": "maw_gamesoc",
+        "name": "Maw ↬",
+        "team": "demon",
+        "ability": "Each night*, choose a player, they die. Minions you choose replace their ability with this one & live.",
+        "firstNight": 0,
+        "otherNight": 10,
+        "otherNightReminder": "The Maw chooses a player. :reminder: If that player is a Minion, they lose their ability &amp; gain the Maw ability. :reminder:",
+        "reminders": [
+            "Dead",
+            "Mini-Maw",
+            "Mini-Maw",
+            "Mini-Maw"
+        ]
+    },
+    {
+        "id": "fürst_gamesoc",
+        "name": "Fürst 🀤",
+        "team": "demon",
+        "ability": "Each night*, learn an in-play character & an alive player: choose which dies & which is poisoned until dusk.",
+        "firstNight": 0,
+        "otherNight": 7,
+        "otherNightReminder": "Show an in-play character token &amp; point to an alive player. The Fürst points to the learned player or character. :reminder: :reminder:",
+        "reminders": [
+            "Dead",
+            "Poisoned"
+        ]
+    },
+    {
+        "id": "endling_gamesoc",
+        "name": "Endling 𐂂",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die. If the majority of alive players are evil, an alive evil Minion becomes good (once). [+1 Minion]",
+        "firstNight": 0,
+        "otherNight": 9,
+        "otherNightReminder": "The Endling chooses a player. :reminder:",
+        "reminders": [
+            "Dead",
+            "Once"
+        ],
+        "setup": true
+    },
+    {
+        "id": "belphegor_gamesoc",
+        "name": "Belphegor ⚕",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die. On the last day, dead players lose their vote tokens. 1 good player knows the Belphegor is in play.",
+        "firstNight": 20,
+        "otherNight": 8,
+        "firstNightReminder": "Wake a good player &amp; show the Belphegor token. :reminder:",
+        "otherNightReminder": "The Belphegor chooses a player. :reminder:",
+        "reminders": [
+            "Dead"
+        ]
+    },
+    "bootlegger"
+]
